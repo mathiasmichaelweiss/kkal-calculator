@@ -1,0 +1,26 @@
+.chart {
+    width: 45%;
+}
+
+.chart ul {}
+
+.chart ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.chart ul li div {
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 1250px) {
+    .chart {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,27 @@
+.settingPanel {
+    width: 49%;
+    display: flex;
+    align-items: center;
+}
+.content {
+    width: 100%;
+}
+
+@media (max-width: 1250px) {
+    .settingPanel {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+/* .settingPanel span {
+    color: rgba(255, 99, 132, 1);
+} */
+
+/* button {
+    color: white !important;
+    background: rgba(255, 99, 132, 0.2) !important;
+} */
+
+/* button .MuiOutlinedInput-root.Mui-checked {
+    background-color: #fff !important;
+} */
